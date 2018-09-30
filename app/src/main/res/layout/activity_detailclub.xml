@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:id = "@+id/clubthum"
+        android:scaleType="fitXY"
+        />
+<TextView
+    android:id = "@+id/nameClub"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="모임이름"
+    android:textSize="30dp"
+    android:textColor="@color/colorPrimary"
+    />
+    <TextView
+        android:id = "@+id/categoryClub"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="주제: 취미"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id = "@+id/countClub"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="가입자수: 50명"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id = "@+id/areaClub"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="지역: 전라도"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="소개"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id = "@+id/infoClub"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="발매 당일 엄청난 예약에 밀려 평화나라에서 각각발매 당일 엄청난 예약에 밀려 평화나라에서 각각발매 당일 엄청난 예약에 밀려 평화나라에서 각각발매 당일 엄청난 예약에 밀려 평화나라에서 각각"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id = "@+id/registerClub"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가입하기"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_style"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+</ScrollView>

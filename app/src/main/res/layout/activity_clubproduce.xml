@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="#53003c"
+            android:text="모임생성 정보"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/clubName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="모임이름"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            />
+        />
+        <EditText
+            android:id="@+id/clubInfo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="모임소개"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:text="카테고리"
+            android:textSize="24dp"
+            />
+        ﻿<Spinner
+        android:id="@+id/spinner_category"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:text="지역"
+            android:textSize="24dp"
+            />
+        ﻿<Spinner
+        android:id="@+id/spinner_state"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        />
+        <TextView
+            android:id="@+id/tv_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:text="탭하여 대표사진을 선택하세요."
+            android:clickable="true"
+            android:onClick="selectPhoto" />
+        <Button
+            android:id = "@+id/btnClubRegister"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="모임생성" />
+
+    </LinearLayout>
+</ScrollView>

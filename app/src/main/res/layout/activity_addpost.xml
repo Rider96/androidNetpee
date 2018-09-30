@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#dddddd"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+        <Spinner
+            android:id="@+id/spinner_notice"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="게시"
+            android:id="@+id/btnpost"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="사진첨부"
+            android:id="@+id/btnphoto"
+            />
+
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="제목"
+        android:background="#ffffff"
+        android:id="@+id/title"
+        android:layout_margin="5dp"
+
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_margin="5dp"
+        android:text="글 내용"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="4dp"
+    android:id="@+id/editor">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+    />
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

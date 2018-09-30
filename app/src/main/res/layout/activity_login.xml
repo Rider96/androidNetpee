@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#53003c"
+    android:gravity="center_horizontal"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:layout_gravity="center_horizontal">
+<!--<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login Now!"
+    android:textSize="40dp"
+    android:layout_marginBottom="20dp"
+    />-->
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo"
+        />
+    <EditText
+        android:id="@+id/id"
+        android:hint="ID입력"
+        android:textColor="#ffffff"
+        android:textColorHint="#f7e473"
+        android:background="@drawable/edit_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/pw"
+        android:hint="password 입력"
+        android:textColor="#ffffff"
+        android:textColorHint="#f7e473"
+        android:background="@drawable/edit_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:inputType="textPassword"/>
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:text="계정 기억"
+    android:id = "@+id/remember"
+    android:textColor="#ffffff"
+    android:layout_gravity="left"
+    android:buttonTint="#ffffff"
+    />
+        <Button
+            android:id = "@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_style"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:text="로그인"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#ffffff"
+        android:text="or"
+        />
+        <Button
+            android:id = "@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_style"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:text="회원가입"
+            />
+
+
+</LinearLayout>

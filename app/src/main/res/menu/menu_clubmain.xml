@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+
+    <item android:id="@+id/re"
+        android:title="새로고침"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/cul"
+        android:title="문화 행사"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/editPlus"
+        android:title="글 작성"
+        app:showAsAction="ifRoom"/>
+
+</menu>
